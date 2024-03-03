@@ -1,0 +1,66 @@
+.holiday{
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAxMjZfMjM0%2FMDAxNjQzMTc0MTYyOTkz.JSfWtlrqX3Fk7pb5MXf0kUEPwKzBwJi1AEYYwUbw97Mg.EG4XZuq0-ihukpuP0WvVdmtlA59iKwakjbwiqsJubSQg.JPEG.hacchina%2FCK_cb0460062644.jpg&type=a340');
+    height: 1300px;
+    margin-left: -1px;
+}
+.holidays-container {
+    max-width: 1650px;
+    height: 1230px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.Hdes{
+    background-color: rgb(255, 255, 255, 0.85);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 16px;
+    height: auto;
+    border-radius: 16px;
+    width: 1550px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.Hname{
+    font-size: 1.4em;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    color: white;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+}
+.Hname:hover {
+    background-color: #2980b9;
+    font-weight: bold;
+  }
+
+.culture{
+    font-size: 22px;
+    font-weight: 525;
+}
+
+.dex{
+    font-size: 28
+}
+
+.holiday-image {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+  }
+
+  .image-container {
+    padding: 16px;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+  }

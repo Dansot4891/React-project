@@ -1,0 +1,77 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+    background-color: #f4f4f4;
+}
+
+
+button:hover {
+    background-color: #2980b9;
+}
+.num {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 30px;
+    width: 8%;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #1D85FF;
+    border: 1px solid #ffffff;
+    border-radius: 14px;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.num p {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.inputSol {
+    width: 75%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #1D85FF;
+    border: 1px solid #1D85FF;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.inputSol::placeholder {
+    font-weight: 100;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.inputSol:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
+
+.end {
+    display: flex;
+    margin-top: 60px;
+    padding:24px;
+    height: 800px;
+    width: 750px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #1D85FF;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.button-container button.active {
+    background-color: "#1D85FF";
+  }
